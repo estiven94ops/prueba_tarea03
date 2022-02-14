@@ -1,4 +1,3 @@
-package prueba_tarea3;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -104,7 +103,7 @@ String ip = "";
   	   /**Cargamos el archivo desde la ruta especificada*/
   	   propiedades
   	     .load(new FileInputStream(
-  	       "C:\\Users\\Steven\\eclipse-workspace\\prueba_tarea3\\src\\properties//archive.properties"));
+  	       "/home/prueba/prueba_tarea03/archive.properties"));
   	   /**Obtenemos los parametros definidos en el archivo*/
   	   nombre = propiedades.getProperty("user");
   	   password = propiedades.getProperty("password");
@@ -141,7 +140,7 @@ String ip = "";
 
             entradaTeclado = entradaEscaner.nextLine (); //Invocamos un metodo sobre un objeto Scanner
             
-            final File carpeta = new File("E:\\USUARIOS\\UEES\\Sistemas Operativos\\I parcial\\Tarea\\deber01\\archivos_ejem\\archivos");
+            final File carpeta = new File("/home/prueba/prueba_tarea03/archivos");
             		 listarFicherosPorCarpeta(carpeta);
             		 
             		 //String[] ficheros = list.toArray(new String[list.size()]);
