@@ -61,7 +61,7 @@ public class Consumer {
             //System.out.print("Introduce texto a buscar: ");
             String texto = id;
 
-            /*try {
+            try {
                 //guardamos el path del fichero en la variable ruta
                 //String ruta = j.getSelectedFile().getAbsolutePath();
                 //creamos un objeto File asociado al fichero seleccionado
@@ -82,7 +82,7 @@ public class Consumer {
                 }
                 if(!contiene){ //si el archivo no contienen el texto se muestra un mensaje indicandolo
 
-                    System.out.println(texto + " no se ha encontrado en el archivo");
+                    //System.out.println(texto + " no se ha encontrado en el archivo");
                 }
             } catch (FileNotFoundException e) {
                 System.out.println(e.toString());
@@ -94,7 +94,7 @@ public class Consumer {
                 if (entrada != null) {
                     entrada.close();
                 }
-            }*/
+            }
             
             
             //****************************LECTURA DE FICHERO CON IDs***********************//
