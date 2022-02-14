@@ -28,7 +28,7 @@ public class Consumer {
 
     public static void main(String[] argv) throws Exception {
     	
-    	FileReader reader = new FileReader("C:\\Users\\Steven\\eclipse-workspace\\prueba_tarea3\\src\\properties//archive.properties");
+    	FileReader reader = new FileReader("/home/prueba/prueba_tarea03/properties/archive.properties");
   		
   		Properties c = new Properties();
   		
