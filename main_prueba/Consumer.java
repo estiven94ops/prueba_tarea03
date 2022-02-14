@@ -1,4 +1,3 @@
-package prueba_tarea3;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -66,7 +65,7 @@ public class Consumer {
                 //guardamos el path del fichero en la variable ruta
                 //String ruta = j.getSelectedFile().getAbsolutePath();
                 //creamos un objeto File asociado al fichero seleccionado
-                File f = new File("C:\\Users\\Steven\\Desktop\\IDs.txt");
+                File f = new File("/home/prueba/prueba_tarea03/IDs.txt");
                 //creamos un Scanner para leer el fichero
                 entrada = new Scanner(f);
                 //mostramos el nombre del fichero
@@ -113,7 +112,7 @@ public class Consumer {
                         	try {
 
                         	   	   
-                                File f = new File("C:\\Users\\Steven\\Desktop\\frecuencias.txt");
+                                File f = new File("/home/prueba/prueba_tarea03/frecuencias.txt");
 
                                 FileInputStream fis = new FileInputStream(f);
 
@@ -164,7 +163,7 @@ public class Consumer {
                     } finally {
                     	//**************************************************GUARDADO DE ID en archivo para persistencia*****************************************************//
                     	try {
-                            String ruta = "C:\\Users\\Steven\\Desktop\\IDs.txt";
+                            String ruta = "/home/prueba/prueba_tarea03/IDs.txt";
                             //String ruta_2 = "C:\\Users\\Steven\\Desktop\\frecuencias.txt";
                             String contenido =System.lineSeparator()+ id;
                            //String contenido2 =System.lineSeparator()+ palabra + " " +  frecuencia;
@@ -196,11 +195,11 @@ public class Consumer {
                         	//System.out.println(palabra);
                         	
                         	
-                        	//String nombreFichero = ("C:\\Users\\Steven\\Desktop\\frecuencias.txt");
+                        	//String nombreFichero = ("/home/prueba/prueba_tarea03/frecuencias.txt");
                         	
                             try {
-                                    //String ruta = "C:\\Users\\Steven\\Desktop\\prueba.txt";
-                                    String ruta_2 = "C:\\Users\\Steven\\Desktop\\frecuencias.txt";
+                                    //String ruta = "C/home/prueba/prueba_tarea03/prueba.txt";
+                                    String ruta_2 = "/home/prueba/prueba_tarea03/frecuencias.txt";
                                     //String contenido =System.lineSeparator()+ id;
                                     String contenido2 =System.lineSeparator()+ palabra + " " +  frecuencia;
                                     //File file = new File(ruta);
@@ -235,7 +234,7 @@ public class Consumer {
                     	try {
 
                     	   	   
-                            File f = new File("C:\\Users\\Steven\\Desktop\\frecuencias.txt");
+                            File f = new File("/home/prueba/prueba_tarea03/frecuencias.txt");
 
                             FileInputStream fis = new FileInputStream(f);
 
